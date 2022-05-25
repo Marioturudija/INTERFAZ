@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane prefHeight="790.0" prefWidth="1010.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="INICIAR" layoutX="732.0" layoutY="394.0" mnemonicParsing="false" text="INICIAR" />
+            <ImageView fitHeight="357.0" fitWidth="462.0" layoutX="297.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/logo.fin.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="179.0" layoutY="394.0" promptText="EMAIL" />
+            <TextField layoutX="446.0" layoutY="394.0" promptText="CONTRASEÑA" />
+            <Button layoutX="422.0" layoutY="611.0" mnemonicParsing="false" text="REGISTRAR" />
+            <Line endX="657.0" endY="-7.0" layoutX="249.0" layoutY="514.0" startX="-114.0" startY="-7.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
